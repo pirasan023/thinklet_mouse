@@ -1,0 +1,25 @@
+build/
+outputs/
+.local-signing/
+*.key
+*.p12
+*.keystore
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.keychain*
+local.properties
+
+# Captures, diagnostics, caches and local scratch files
+work/
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
